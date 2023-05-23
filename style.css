@@ -1,0 +1,46 @@
+body{
+    background-color: greenyellow;
+}
+#showsketch{
+    animation-name:example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    background-color: cyan;
+    border-radius: 12px;
+}
+h1{
+    font-size:2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 1.5 rem 0;
+    color:#fff;
+    text-shadow:2px 2px 4px rgba(0,0,0,20);
+}
+canvas{
+    display:block;
+    margin: auto;
+    border:5px solid #ffa7a7;
+    border-radius:30px;
+    width:250px;
+}
+@keyframes example{
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#label{
+    font-family: 'Caveat', cursive;
+    color:white;
+    font-size: 25px;
+}
+#confidence{
+    font-family: 'Caveat', cursive;
+    color:white;
+    font-size: 25px;
+}
